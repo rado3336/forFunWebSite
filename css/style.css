@@ -1,0 +1,177 @@
+*
+{
+    /* overflow-x: hidden; */
+}
+
+body
+{
+    background-color: #FCF3CF;
+    
+}
+
+.top-nav-bar {
+    /* display: flex; */
+    position: relative;
+    margin: 0 auto;
+    margin-top: -20px;
+    padding-left: 0; /* ul elementy maju same od seba lavy padding, zrusime */
+    list-style: none; /* toto zrusi tie bodky v zoznamoch */
+    text-align: center;
+    background-color: #228737;
+    width: 100%;
+}
+  
+.top-nav-bar li,
+.top-nav-bar a {
+    display: inline-block; /* aby boli vedla seba */
+    margin: 0 30px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase
+   
+ 
+}
+
+.top-nav-bar li,
+.top-nav-bar a:hover
+{
+    color: rgb(21 22 22 / 69%);
+    text-decoration: underline;
+}
+
+.logo-img
+{
+    padding: 60px 0;;
+    text-align: center;
+    
+}
+
+.logo-img a
+{
+    height: 343px;
+    width: 500px;
+    display: inline-block;
+    background: url(../img/best-trip-ever.jpg) no-repeat;
+    text-indent: -999999px;
+    border-radius: 30px;
+    
+}
+
+.article-img
+{
+    height: 420px;
+    width: 960px;
+    display: inline-block;
+    background: url(../img/novy-zeland.jpg) no-repeat;
+    text-indent: -999999px;
+    
+}
+
+.container
+{
+    max-width: 100%;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.button
+{
+    /* width: 100%; */
+	width: 60%;
+	/* display: block; */
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: #21A635;
+    padding: 20px 15px;
+    text-transform: uppercase
+    
+        
+}
+
+.button:hover
+{
+    background-color: #27C23E;
+}
+
+.footer
+{
+    position: relative;
+    max-width: 100%;
+    background-color: #AFC23E;
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.footer li
+{
+    display: inline-block;
+    margin: 20px;
+}
+
+.fb
+{
+    background: #AFC23E url(../img/icons.png) -206px 31px no-repeat;
+    padding: 50px 50px;
+    border-radius: 50%;
+    
+}
+
+.fb:hover
+{
+    background: #FCF3CF url(../img/icons.png) -206px 31px no-repeat;
+}
+
+.footer ul li a
+{
+    width: 150px;
+    height: 150;
+}
+.yt
+{
+    background: #AFC23E url(../img/icons.png) -434px -132px no-repeat;
+    padding: 50px 50px;
+    border-radius: 50%;
+    
+}
+
+.yt:hover
+{
+    background: #FCF3CF url(../img/icons.png) -434px -132px no-repeat;
+}
+
+.tw
+{
+    background: #AFC23E url(../img/icons.png) -430px 30px no-repeat;
+    padding: 50px 50px;
+    border-radius: 50%;
+    
+}
+
+.tw:hover
+{
+    background: #FCF3CF url(../img/icons.png) -430px 30px no-repeat;
+}
+
+.spf
+{
+    background: #AFC23E url(../img/icons.png) -874px -441px no-repeat;
+    padding: 50px 50px;
+    border-radius: 50%;
+    
+}
+
+.spf:hover
+{
+    background: #FCF3CF url(../img/icons.png) -874px -441px no-repeat;
+}
